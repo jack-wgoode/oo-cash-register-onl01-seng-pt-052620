@@ -17,7 +17,7 @@ class CashRegister
     quantity.times do
     self.items << @title
   end
-    self.prices <<
+    self.prices << price*quantity
     self.total += price*quantity
     
   end
