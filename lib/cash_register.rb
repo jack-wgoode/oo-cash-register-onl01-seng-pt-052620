@@ -41,6 +41,6 @@ class CashRegister
        self.total = 0.0 
      else 
        self.total -= self.prices.pop()
-    
+    end
   end
 end 
