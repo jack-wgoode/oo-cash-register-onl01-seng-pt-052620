@@ -16,6 +16,7 @@ class CashRegister
     @title = title
     quantity.times do
     self.items << @title
+    self.prices  << price
   end
     self.total += price*quantity
   end
