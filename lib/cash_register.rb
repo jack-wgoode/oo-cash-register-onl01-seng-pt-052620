@@ -5,6 +5,7 @@ class CashRegister
     @discount = discount
     @total = 0
     @items = []
+    @prices = []
   end
   
   def total
@@ -31,5 +32,9 @@ class CashRegister
   
   def items
     @items
+  end
+  
+  def delete_last_item
+    
   end
 end 
