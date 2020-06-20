@@ -36,7 +36,11 @@ class CashRegister
     @items
   end
   
-  def delete_last_item
+  def void_last_transaction
+    if self.prices.length == 1 
+       self.total = 0.0 
+     else 
+       self.total -= self.prices.pop()
     
   end
 end 
